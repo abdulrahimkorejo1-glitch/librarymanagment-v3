@@ -35,7 +35,7 @@ if(isset($_POST['login'])){
     }
 
 ?>
-
+<?php
 <!DOCTYPE html>
 <html>
 <head>
