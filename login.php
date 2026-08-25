@@ -56,7 +56,7 @@ if(isset($_POST['login']) && !empty($error)){
     echo "<p style='color:red;'>$error</p>";
 }
 ?>
-
+<?php
 <form method="POST">
 
 <input type="text" name="username" placeholder="Username" required>
@@ -65,7 +65,7 @@ if(isset($_POST['login']) && !empty($error)){
 
 <br><br>
 
-<button name="login">Login</button>
+<button name="login">Login</button>  ?>
 
 </form>
 
